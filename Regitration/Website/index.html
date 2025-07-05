@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign Up | RuV Multitool v1</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1 class="glow-heading">Sign Up for RuV Multitool v1</h1>
+    <form id="signupForm" novalidate>
+      <div class="field-group">
+        <input type="text" id="userId" required autocomplete="username" placeholder=" ">
+        <label for="userId">User ID</label>
+      </div>
+      <div class="field-group">
+        <input type="password" id="password" required autocomplete="new-password" placeholder=" ">
+        <label for="password">Password</label>
+        <button type="button" class="toggle-pass" title="Show/Hide">
+          👁️
+        </button>
+      </div>
+      <div id="strengthMeter">
+        <div id="strengthBar"></div>
+      </div>
+      <p id="strengthText"></p>
+      <button type="submit" class="submit-button">
+        Register
+        <span class="loader"></span>
+      </button>
+      <p id="message"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

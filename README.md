@@ -14,7 +14,7 @@ ___
 # Libraries to install
 1. pip install requests
 2. pip install pymongo
-3. ___
+___
 # If you want to use to make sure ->
 1. Download and install [MongoDB](https://www.mongodb.com/try/download/community) create a cluster.
 2. Now create a DB named "RuVMultitoolv1" or anything you like similarly create a collection named "Auth" or anything else but make sure to change it in the [server.js](https://github.com/iamrudra69/RuV-Multitool-Python/blob/main/Regitration/Server/server.js) in Registration/Server and in [main.py](https://github.com/iamrudra69/RuV-Multitool-Python/blob/main/Multitool/scripts/main.py) in Multitiool/scripts.
